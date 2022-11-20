@@ -1,0 +1,176 @@
+body
+{
+    background-color: #404040;
+    font-family:'ubuntu', sans-serif ; 
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#logo
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+#menu
+{
+    background-color: #303030;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#topbar
+{
+    background-color: #68946a;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 170px;
+}
+
+#topbarR
+{
+    
+
+    float:left;
+    padding: 20px;
+    width: 760px ;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#topbarL
+{
+    float:left;
+    padding: 20px;
+    width: 138px ;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+
+#sidebar
+{
+    
+    width: 148px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+}
+
+#content
+{
+    float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    height: auto;
+    text-align: justify;
+}
+
+#srodek
+{
+    display: flex;
+}
+
+#footer
+{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.titlelink
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+.optionL:hover
+{
+    background-color: #f36742 ;
+    color: wheat;
+    cursor: pointer;
+}
+
+.bigtitle
+{
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.dottedline
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+}
+
+a.tilelink  /*robimy, że link nie jest niebieski*/
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block; /*robimy z linka blok, więc nadajemu mu wymiary żeby po naciśnięciu na cały kwadrat było hiperłącze nie tylko na napisy*/
+    
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.8; /* nieprzezroczystość, czyli jest przezroczysty w 20%*/
+}
+
+a.tilelinkL  /*robimy, że link nie jest niebieski*/
+{
+    color: #000000;
+    text-decoration: none;
+    display: block; /*robimy z linka blok, więc nadajemu mu wymiary żeby po naciśnięciu na cały kwadrat było hiperłącze nie tylko na napisy*/
+   
+    width: auto;
+    
+    text-align:justify ;
+    text-align:center ;
+    height: 35px;
+    font-size: 18px;
+    padding: 10px;
+   
+}
+
+a.tilelink:hover
+{
+    background-color: #f36742 ;
+    color: wheat;
+    cursor: pointer;
+}
+
+a.tilelinkL:hover
+{
+    background-color: #f36742 ;
+    color: wheat;
+    cursor: pointer;
+}
